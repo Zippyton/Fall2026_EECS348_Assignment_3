@@ -1,7 +1,7 @@
 all: emailPrioritizer 
 
-EmailPrioritizer: emailPrioritizer.cpp
+emailPrioritizer: emailPrioritizer.cpp
 	g++ emailPrioritizer.cpp -o emailPrioritizer
 	
 clean:
-	rm -rf prog *.o  
+	rm -rf emailPrioritizer *.o  
