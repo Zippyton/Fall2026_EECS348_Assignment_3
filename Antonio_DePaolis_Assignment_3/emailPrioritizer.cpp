@@ -1,3 +1,17 @@
+/*
+Program Name: Email Prioritizer
+Description: Prioritizes emails inputted via a text file by putting them in a MaxHeap
+             then produces outputs for each command inside the text file until it reaches the end using C++
+Inputs: Text file containing email data
+Outputs: Outputs what each command does during file reading.
+Collaborators: Gemini for whole code
+Other soruces: geeksforgeek: (Leap Year) https://www.geeksforgeeks.org/dsa/program-check-given-year-leap-year/
+Author: Antonio DePaolis
+Creation Date: 9/30/2026
+Revision Date: 9/30/2026
+Revisions: Modified and added comments. Modified the trim_whitespace() function to handle leading whitespace.
+*/
+
 #include <iostream>	// Include iostream for standard input and output operations
 #include <fstream>	// Include fstream for reading from files
 #include <sstream>	// Include sstream for string stream manipulation
